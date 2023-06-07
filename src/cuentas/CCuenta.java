@@ -1,14 +1,13 @@
 package cuentas;
 
 public class CCuenta {
-
+//primero cambiamos el nombre de la variable tipo a tipoInteres para que sea más claro a lo que nos estamos refiriendo
     private String nombre;
     private String cuenta;
     private double saldo;
-    private double tipoInterés;
+    private double tipoInteres;
 
-    public CCuenta() {
-    }
+
 
     public CCuenta(String nombre, String cuenta, double saldo, double tipoInterés) {
 
