@@ -69,19 +69,4 @@ public class CCuenta {
             throw new Exception("No hay suficiente saldo");
         saldo -= cantidad;
     }
-
-    /**
-     * Realiza una serie de operaciones en la cuenta.Se realiza un ingreso y una retirada de una cantidad fija.
-     * @param cantidad
-     */
-    public void operativa_cuenta(double cantidad) {
-        try {
-            ingresar(cantidad);
-            System.out.println("Ingreso en cuenta");
-            retirar(230);
-            System.out.println("Retirada de cuenta");
-        } catch (Exception e) {
-            System.out.println("Fallo al operar con la cuenta: " + e.getMessage());
-        }
-    }
 }

@@ -26,23 +26,16 @@ public class Main {
         try {
             cuenta.retirar(2300);
         } catch (Exception e) {
-            System.out.print("Fallo al retirar");
+            System.out.print(" Fallo al retirar");
         }
         try {
-            System.out.println("Ingreso en cuenta");
+            System.out.println(" Ingreso en cuenta");
             cuenta.ingresar(695);
         } catch (Exception e) {
-            System.out.print("Fallo al ingresar");
+            System.out.print(" Fallo al ingresar");
         }
 
-        try {
-            cuenta.ingresar(500);
-            System.out.println("Ingreso en cuenta");
-            cuenta.retirar(230);
-            System.out.println("Retirada de cuenta");
-        } catch (Exception e) {
-            System.out.println("Fallo al operar con la cuenta: " + e.getMessage());
-        }
+
     }
 
     /**
